@@ -1,0 +1,230 @@
+
+.home,.template,.create,.preview,.downloads{
+    position:absolute;
+    top:125px;
+    left:100px;
+    width:90%;
+    background-color:rgb(255, 255, 255);
+    box-shadow:0 10px 20px rgba(0, 0, 0, 0.08);
+    border-radius:20px;
+}
+.home{
+    font-size: 25px;
+    font-family:monospace;
+    color:#000000;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center; 
+    gap:30px;
+    padding:20px;
+}
+.div1{
+    width:45%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+}
+.div2{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    width:60%;
+}
+.div21{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    gap:10px;
+}
+.div21 h5{
+    font-size:18px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:black
+}
+.div21 h4{
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;
+}
+.icondiv,.icondi{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    height:32px;
+    width:120%;
+    gap:5px;
+}
+.icondiv img,.icondi img{
+    width:30px;
+    height:30px;
+}
+.instruction{
+    position:absolute;
+    top:102%;
+    left:100px;
+    width:90%;
+    background-color:white;
+    border-radius:20px;
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items:flex-start;
+    gap:80px;
+}
+.a{
+    color:rgb(0, 0, 0);
+}
+.home h6{
+    font-size:20px;
+    font-family:'Courier New', Courier, monospace;
+    color:rgb(64, 67, 70);
+}
+.second{
+    padding:50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    text-align: center;
+    width:30%;
+    gap:30px;
+}
+
+.icondi h4, .third h4{
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(0, 0, 0);
+}
+.third{
+    width:70%;
+    padding:40px;
+}
+.four{
+    border-radius:20px;
+    width:100%;
+    padding:30px;
+    background:linear-gradient(to right,#E0F2FE,#f7f7f8);
+    box-shadow:0px 8px 32px rgba(31,38,135,0.15);
+    border:3px solid rgb(175, 219, 224);
+}
+#linkk{
+    text-decoration: none;
+    color:black;
+    font-size:20px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.second .icondiv{
+    box-shadow:0px 10px 20px rgba(0,0,0,0.08);
+}
+.icondiv:hover{
+    transform:translateY(-3px);
+    box-shadow:0px 10px 20px rgba(73, 73, 73, 0.08);  
+}
+.third h4{
+    font-weight: bold;
+}
+@media (max-width:768px) {
+    .home,.template,.create,.preview,.downloads{
+        top:150px;
+        left:7px;
+        border-radius: 10px;
+        width:97%;
+
+    }
+    .home{
+        font-size:17px;
+        padding:10px;
+        gap:8px;
+    } 
+    .home h6{
+        font-size:15px;
+    }
+    .div2{
+        width:80%;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .div21{
+      
+        margin-left:30px;
+        
+    }
+    .div21 h4{
+        font-size: 18px;
+    }
+    .div21 img{
+        width:20px;
+        height:20px;
+    }
+    .div21 .icondiv,.div21 .icondi{
+        height:26px;
+    }
+    .div21 h5{
+        font-size:15px;
+    }
+    .div1{
+        margin-left:0;
+        width:80%;
+    }
+    .div1 .a
+    {
+        margin-right: 30px;
+        width:140px;
+        font-size:13px !important;
+        padding:4px;
+    }
+    .instruction{
+        left:7px;
+        border-radius: 10px;
+        width:97%;
+    }
+    .second{
+        gap:20px;
+        padding: 25px;
+        width:20%;
+    }
+    .third{
+        width:60%;
+    }
+    #linkk h5{
+        font-size:14px !important;
+    }
+    .icondi h4,.third h4{
+        font-size: 16px;
+    }
+    .second .icondiv img{
+        width:25px;
+        height: 25px;
+    }
+    .second .icondiv,.second .icondi{
+        width:140px;
+    }
+    .third{
+        padding:20px;
+    }
+    .four{
+       padding:10px;
+       display:flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       height:360px; 
+    }
+    .four p{
+        font-size:10px;
+        height:20px; 
+    }
+    .four h4,.four h3{
+        font-size:12px;
+    }
+    .four h5,.four h6{
+        font-size: 11px;;
+    }
+}
+

@@ -1,0 +1,40 @@
+.down{
+     width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+    padding:30px;
+}
+.downloads{
+    width:90%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+}
+.downloads .doo{
+    font-size :26px;
+    background:linear-gradient(45deg,deeppink,blue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+@media (max-width:768px){
+    .downloads{
+        width:97%;
+        padding:10px;
+        
+    }
+    .downloads .doo{
+        font-size:17px;
+        /* width:97%; */
+    }
+    .down{
+        padding:6px;
+        width:93%;
+        gap:10px;
+    }
+}
